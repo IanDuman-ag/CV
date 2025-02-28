@@ -1,0 +1,80 @@
+/* style.css */
+
+/* 
+  Basic global styling and a background gradient that transitions 
+  from a teal-like color to white, simulating the design in the image.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #5ba19b, #ffffff);
+  }
+  
+  /* Main content container: white card with subtle shadow */
+  .main-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Navbar brand style (Portfolio logo/name) */
+  .navbar-brand {
+    color: #008080 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Navbar links spacing and color */
+  .navbar-nav .nav-link {
+    margin-left: 20px;
+    color: #333 !important;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 60px 20px;
+  }
+  
+  /* Hero Text Styling */
+  .hero-text p {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text h1 {
+    color: #008080;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text h2 {
+    color: #666;
+    font-size: 1.5rem;
+  }
+  
+  /* Hero Buttons */
+  .btn-custom {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #006666;
+    color: #fff;
+  }
+  
+  /* Hero Image (circular style) */
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
