@@ -94,7 +94,7 @@ h2 {
 .section h2 {
     font-size: 18px;
     background: #f10707;
-    color: black;
+    color: rgb(245, 231, 231);
     padding: 5px;
 }
 
@@ -120,8 +120,20 @@ h2 {
     position: relative;
 
 }
-.background-right {
-    background: url('bgleft.png') no-repeat center center;
-    background-size: cover;
-    min-height: 100vh; /* Ensure it covers the full height */
+.next-button {
+    position: relative; 
+    bottom: 100px;
+    left: 750px;
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ff0000; /* Red color to match your theme */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  
+}
+
+.next-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
 }
