@@ -137,3 +137,11 @@ h2 {
 .next-button:hover {
     background-color: #ec3572;; /* Darker red on hover */
 }
+.full-height {
+    height: 100vh; /* Full viewport height */
+}
+.img-full-height {
+    height: 159%; /* Full height of the container */
+    width: 150%; /* Full width to cover the container */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+}
